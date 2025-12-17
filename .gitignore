@@ -1,0 +1,22 @@
+# Data artifacts
+data/
+*.jsonl
+
+# HuggingFace / models
+.cache/
+.huggingface/
+hf_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+
+# Logs
+*.log
+
+# OS
+.DS_Store
