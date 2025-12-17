@@ -6,7 +6,7 @@ from pathlib import Path
 # Config
 OUT_PATH = Path("data/processed/code_silver.jsonl")
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-MAX_SAMPLES = 200_000
+MAX_SAMPLES = 2_000_000
 
 def process_nvidia():
     print("Streaming OpenMathInstruct-2 (train_5M)...")
